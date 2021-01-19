@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang = "esp" dir ="ltr">
+
+    <head>
+        <title>Formulario </title>
+        <meta charset = "UTF-8"/>
+    </head>
+
+    <body>
+        <form>
+            <p>
+                <label for = "nUsuario">Usuario &nbsp&nbsp&nbsp&nbsp</label>
+                <input type = "text" name = "nUsuario" id = "nUsuario" autofocus = "autofocus" autocomplete = "off" placeholder = "Nombre Usuario" required> 
+            </p>
+
+            <p>
+                <label for = "nombre">Nombre &nbsp&nbsp&nbsp&nbsp</label>
+                <input type = "text" name = "nombre" id = "nombre" autocomplete = "on" placeholder = "Nombre" required>
+            </p>
+
+            <p>
+                <label for = "apellido">Apellidos &nbsp&nbsp&nbsp</label>
+                <input type = "text" name = "apellido" id = "apellido" autocomplete = "on" placeholder = "Apellido" requiered>
+            </p>
+
+            <p>
+                <label for = "email">Email  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input type = "email" name = "email" id = "email" autocomplete = "off" placeholder = "Email" required = "email">
+            </p>
+
+            <p>
+                <label for = "pass1">Contraseña</label>
+                <input type = "password" name = "pass1" id = "pass1" minlength = "8" placeholder = "Contraseña" required = "password">
+            </p>
+
+            <p>
+                <label for = "pass2">Repite la contraseña</label>
+                <input type = "password" name = "pass2" id = "pass2" minlength = "8" placeholder = "Contraseña" required = "password">
+            </p>
+
+            <p>
+                <br><label>Provincia &nbsp</label>
+                <input id = "form-person-title" type = "text" list = "provincia">
+                <datalist id = "provincia">
+                    <option label = "Álava" value = "Álava">
+                    <option label = "Albacete" value = "Albacete">
+                    <option label = "Alicante" value = "Alicante">
+                    <option label = "Almería" value = "Almería">
+                    <option label = "Asturias" value = "Asturias">
+                    <option label = "Ávila" value = "Ávila">
+                    <option label = "Badajoz" value = "Badajoz">
+                    <option label = "Barcelona" value = "Barcelona">
+                    <option label = "Burgos" value = "Burgos">
+                    <option label = "Cáceres" value = "Cáceres">
+                    <option label = "Cádiz" value = "Cádiz">
+                    <option label = "Cantabria" value = "Cantabria">
+                    <option label = "Castellón" value = "Castellón">
+                    <option label = "Ciudad Real" value = "Ciudad Real">
+                    <option label = "Córdoba" value = "Córdoba">
+                    <option label = "Cuenca" value = "Cuenca">
+                    <option label = "Gerona" value = "Gerona">
+                    <option label = "Granada" value = "Granada">
+                    <option label = "Guadalajara" value = "Guadalajara">
+                    <option label = "Guipúzcoa" value = "Guipúzcoa">
+                    <option label = "Huelva" value = "Huelva">
+                    <option label = "Huesca" value = "Huesca">
+                    <option label = "Islas Baleares" value = "Islas Baleares">
+                    <option label = "Jaén" value = "Jaén">
+                    <option label = "La Coruña" value = "La Coruña">
+                    <option label = "La Rioja" value = "La Rioja">
+                    <option label = "Las Palmas" value = "Las Palmas">
+                    <option label = "León" value = "León">
+                    <option label = "Lérida" value = "Lérida">
+                    <option label = "Lugo" value = "Lugo">
+                    <option label = "Madrid" value = "Madrid">
+                    <option label = "Málaga" value = "Málaga">
+                    <option label = "Murcia" value = "Murcia">
+                    <option label = "Navarra" value = "Navarra">
+                    <option label = "Orense" value = "Orense">
+                    <option label = "Palencia" value = "Palencia">
+                    <option label = "Pontevedra" value = "Pontevedra">
+                    <option label = "Salamanca" value = "Salamanca">
+                    <option label = "Santa Cruz de Tenerife" value = "Santa Cruz de Tenerife">
+                    <option label = "Segovia" value = "Segovia">
+                    <option label = "Sevilla" value = "Sevilla">
+                    <option label = "Soria" value = "Soria">
+                    <option label = "Tarragona" value = "Tarragona">
+                    <option label = "Teruel" value = "Teruel">
+                    <option label = "Toledo" value = "Toledo">
+                    <option label = "Valencia" value = "Valencia">
+                    <option label = "Valladolid" value = "Valladolid">
+                    <option label = "Vizcaya" value = "Vizcaya">
+                    <option label = "Zamora" value = "Zamora">
+                    <option label = "Zaragoza" value = "Zaragoza">
+                </datalist>
+                </br>
+            </p>
+
+            <p>
+                <label for = "edad">¿Qué edad tienes?</label>
+                <input type = "number" id = "edad" name = "edad" min = "3" max = "99" step = "1" required pattern = "\d+">
+            </p>
+
+            <p>
+                <label for = "telefono">Teléfono fijo &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                <input type = "number" id = "telefono" name = "telefono">
+            </p>
+
+            <p>
+                <label for = "telefono1">Teléfono movil &nbsp&nbsp</label>
+                <input type = "number" id = "telefono1" name = "telefono1">
+            </p>
+
+            <p>
+                <label for = "web">Página web</label>
+                <input type = "url" id = "web" name = "web">
+            </p>
+
+            <p>
+                <label for = "color">¿Color favorito? &nbsp&nbsp&nbsp&nbsp</label>
+                <input type = "color" id = "color" name = "color">
+            </p>
+
+            <p>
+                <label for = "nacimiento">¿Cuando naciste? &nbsp&nbsp</label>
+                <input type = "date" id = "nacimiento" name = "nacimiento">
+            </p>
+
+            <p>
+                <label for = "semanaAño">¿Qué semana del años es?</label>
+                <input type = "week" id = "semanaAño" name = "semanaAño">
+            </p>
+
+            <p>
+                <label for = "notaMedia"></label>
+                <input type = "number" id = "notaMedia" name = "notaMedia" min = "0" max = "10" step = "1" required pattern = "\d+">
+            </p>
+
+            <p>
+                <label for = "archivo">Adjunta un archivo</label>
+                <input type = "file" id = "archivo" name = "archivo">
+            </p>
+
+            <p>
+                <label for = "rango">valora el formulario &nbsp&nbsp&nbsp</label>
+                <input type = "range" id = "rango" name = "rango">
+            </p>
+
+            <p>
+                <label for = "confirmar">Acepto términos y condiciones: </label>
+                <input type = "checkbox" name = "confirmar" id = "confirmar" required>
+            </p>
+
+            <progress min = "0" max = "100" value = "65">
+
+            </progress>
+
+            <p>
+                <button type = "submit" onclick = "passwordValidation()">Enviar</button>
+            </p>
+
+            <script>
+                
+                    function passwordValidation(){ 
+
+                        var p1 = document.getElementById("pass1").value;
+
+                        var p2 = document.getElementById("pass2").value;
+
+
+
+                        var espacios = false;
+
+                        var cont = 0;
+
+
+
+                        while (!espacios && (cont < p1.length)) {
+
+                            if (p1.charAt(cont) == " "){
+
+                                espacios = true;
+
+                                cont++
+                                
+                            }
+
+
+                            if (espacios) {
+
+                                alert ("La contraseña no puede contener espacios en blanco");
+                                
+                                return false;
+
+                        }else{
+
+                            if (p1 != p2) {
+
+                                alert("Las contraseñas deben de coincidir");
+
+                                return false;
+
+                            } else {
+
+                                return true; 
+
+                            }
+
+                        }
+                    }
+                }
+            </script>
+        </form>
+    </body>
+</html>
